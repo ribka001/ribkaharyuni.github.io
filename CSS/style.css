@@ -1,0 +1,115 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: serif, sans-serif, helvetica;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: coral;
+	color: #333;
+	font-family: serif;
+}
+
+#navbar{
+	background-color: #333;
+	color: #fff;
+	
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+	padding-right: 35px;
+}
+
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#showcase{
+	background-image: url(images/showcase.jpg); 
+	background-position: center;
+	background-size: cover;
+	margin: auto;
+	overflow: hidden;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #333;
+	opacity: 0.6;
+	font-size: 45px;
+	line-height: 1.6em;
+	padding-top: 90px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding-right: 20px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+#main{
+	clear: both;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.gallery{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}
+
+table, th, td {
+	border: 2px solid coral;
+	border-collapse: collapse;
+	text-align: center;
+	height: 50px;
+	padding: 15px;
+	color:#333;
+	font-family: serif;
+	color: coral;
+}
+
+th{
+	font-size: 30px;
+}
+
+td{
+	font-size: 20px;
+}
